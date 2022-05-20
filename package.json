@@ -1,0 +1,26 @@
+{
+  "name": "ghostinthewires-tech-radar",
+  "version": "2018.5.0",
+  "description": "Visualizing our technology choices",
+  "homepage": "https://github.com/ghostinthewires/Tech-Radar#readme",
+  "repository": "https://github.com/ghostinthewires/Tech-Radar.git",
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "eslint": "^5.7.0",
+    "htmllint": "^0.7.2",
+    "socket.io": "^4.4.1"
+  },
+  "resolutions": {
+    "portscanner": "2.2.0"
+  },
+  "scripts": {
+    "start": "browser-sync docs -w",
+    "lint": "npm run lint:js && npm run lint:html",
+    "lint:js": "eslint docs/*.js",
+    "lint:html": "htmllint docs/*.html"
+  }
+}
