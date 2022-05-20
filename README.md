@@ -1,7 +1,7 @@
 # Motivation
 
 At [ghostinthewires](https://github.com/ghostinthewires/Tech-Radar), we maintain a [public Tech
-Radar](https://github.com/ghostinthewires/Tech-Radar) to help our engineering teams
+Radar](https://ghostinthewires.github.io/Tech-Radar/) to help our engineering teams
 align on technology choices.
 
 This repository contains the code to generate the visualization:
