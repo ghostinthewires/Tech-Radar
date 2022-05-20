@@ -299,7 +299,7 @@ function radar_visualization(config) {
                 })
              // Add a target if (and only if) there is a link and we want new tabs
                 .attr("target", function (d, i) {
-                return (d.link && config.links_in_new_tabs) ? "_blank" : true;
+                return (d.link && config.links_in_new_tabs) ? "_blank" : null;
                 })        
             .append("text")
               .attr("transform", function(d, i) { return legend_transform(quadrant, ring, i); })
