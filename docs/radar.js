@@ -287,8 +287,8 @@ function radar_visualization(config) {
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
-          .style("font-size", "12px")
-          .style("font-weight", "bold");
+          .style("font-weight", "bold")
+          .style("fill", config.rings[ring].color);
         legend.selectAll(".legend" + quadrant + ring)
           .data(segmented[quadrant][ring])
           .enter()
