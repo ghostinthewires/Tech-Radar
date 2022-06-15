@@ -66,7 +66,7 @@ radar_visualization({
 Entries are positioned automatically so that they don't overlap.
 
 As a working example, you can check out `docs/index.html` &mdash; the source of our [public Tech
-Radar](https://ghostinthewires.github.io/tech-radar/).
+Radar]([https://ghostinthewires.github.io/tech-radar/](https://ghostinthewires.github.io/Tech-Radar/)).
 
 ## Local Development
 
